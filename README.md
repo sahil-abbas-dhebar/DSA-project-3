@@ -153,6 +153,3 @@ This workflow ensures efficient management of user data and movies, provides a s
 - **Enhanced Seat Booking Interface**: Add seat selection by seat number.
 - **Data Persistence Enhancements**: Use binary files or databases for more robust data management.
 
-## License
-
-This project is open-source and available under the MIT License.
