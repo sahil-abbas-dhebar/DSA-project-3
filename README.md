@@ -14,6 +14,9 @@ The **Movie Ticket Booking System** is a C++ console application that simulates 
 - **Exception Handling**: Handles invalid input types for error prevention.
 - **Menu Interface**: User-friendly menu for accessing different functions.
 
+  ![image](https://github.com/user-attachments/assets/073f0c6d-334d-41c0-9983-2c677b0fd6e8)
+
+
 ## Data Structures Used
 
 1. **Stack** (User Information): Users are managed with a stack-based structure allowing operations like pushing new users and popping the current user.
