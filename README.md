@@ -108,40 +108,37 @@ The **Movie Ticket Booking System** provides a streamlined solution for managing
 5. **Stack and Queue Operations**: By using stack (for user information) and queue-like behavior (for movie listing), the code demonstrates efficient data structure utilization for managing data flow, making it easily adaptable for different operations.
 
 ## Workflow of the Movie Ticket Booking System
+The code is designed with a clear process to manage user and movie information, seat bookings, and data persistence. Here’s how it works:
 
-The code is designed with a modular workflow to manage user and movie information, seat bookings, and data persistence. Here’s a step-by-step outline of the system's workflow:
 
 ### 1. **Initialization and Setup**
-   - When the program starts, a welcome pattern is displayed, and the console background color is set for a better user experience.
-   - The system creates instances of `UserList` and `MovieList` classes, which represent the list of users (as a stack) and movies (as a linked list), respectively.
-   - Some initial movies are added to the `MovieList` for users to select from immediately.
+   - When the program starts, it shows a welcome message, changes the console background color, and sets up user and movie data.
+   - Initial movies are added to the movie list for immediate selection.
 
 ### 2. **User Creation and Data Persistence**
-   - Users are prompted to enter their profile details (name, age, and balance).
-   - This information is stored in the `UserList` and written to `userprofile.txt` for data persistence.
-   - The user data can then be retrieved at any time to display or manage user profiles.
+   - Users enter their profile details (name, age, and balance).
+   - The system stores the details in the UserList and saves them to userprofile.txt.
 
 ### 3. **Menu Navigation and Options**
-   - The system displays a main menu with options for booking tickets, displaying movies, checking seats, showing tickets, and accessing developer options.
-   - Users select options by entering the corresponding number, and the system routes to the selected functionality.
+   -A main menu appears, and users can choose from options to book tickets, view movies, check seats, and manage tickets.
    
 ### 4. **Booking Process**
-   - The **Book Ticket** option prompts users to enter a movie name and the number of tickets they wish to book.
-   - The system checks seat availability and the user’s balance to complete the transaction.
-   - Upon successful booking, the system deducts the total cost from the user’s balance and updates the booked seat count for the movie.
+   - The Book Ticket option prompts users for the movie name and ticket count.
+   - The system checks seat availability and the user’s balance before the booking.
+   - Upon successful booking, the system deducts the cost from the user’s balance and updates the booked seat count for the movie.
 
 ### 5. **Checking and Managing Movies**
-   - Users can view a list of available movies in alphabetical order, and developers can add, edit, delete, or sort movies.
-   - Seats can be checked for each movie to display the current availability, showing booked and open seats visually in rows.
+   - Users can view a list of movies in alphabetical order. Developers can also add, edit, delete, and sort movies.
+   - Seat availability is checked for each movie.
    
 ### 6. **File Management for Tickets and User Profiles**
-   - The **Show Ticket** and **UserProfile** options enable users to display ticket information and view user profiles stored in files.
-   - This ensures that user and booking data is maintained across multiple sessions, making the system more robust and user-friendly.
+   - The Show Ticket and UserProfile options let users view ticket and profile details stored in files.
 
 ### 7. **Program Exit**
-   - When users select the exit option, the program ends, displaying a goodbye message. All changes (e.g., seat bookings, new users) are saved for the next session.
+   - When users select exit, the program ends and saves all changes for the next session.
 
-This workflow ensures efficient management of user data and movies, provides a seamless booking experience, and maintains information integrity across sessions, making it an effective system for movie ticket management.
+
+This workflow ensures the system manages user data, movies, and bookings effectively, while maintaining data across sessions.
 
 ## Dependencies
 
