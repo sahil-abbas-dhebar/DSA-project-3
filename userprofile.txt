@@ -1,4 +1,1 @@
-Username: sahil | Age: 1 | Balance: $90.00
-Username: sahil | Age: 19 | Balance: $20.00
-Username: sahil abbas | Age: 19 | Balance: $30.00
-Username: sahil abbas | Age: 19 | Balance: $30.00
+
