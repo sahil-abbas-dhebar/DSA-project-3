@@ -32,7 +32,6 @@ The **Movie Ticket Booking System** is a C++ console application that simulates 
 ## File Details
 
 - **userprofile.txt**: Stores user profile data.
-- **ticket.txt**: Stores ticket information for reference.
 
 - ## File Handling Explanation
 
@@ -46,11 +45,6 @@ The **Movie Ticket Booking System** uses file handling to store and retrieve use
      - `ios::app` mode for appending new user data.
      - `ios::in` mode for reading and displaying user profiles.
 
-2. **Ticket File** (`ticket.txt`):
-   - **Purpose**: Stores ticket booking details so users can view their ticket information.
-   - **Read Operation**: The function `showTicket` reads from `ticket.txt` and displays each line, showing details of previously booked tickets.
-   - **Mode Used**: 
-     - `ios::in` mode for reading ticket information.
 
 These file operations allow the program to maintain user and ticket records across sessions.
 
@@ -135,7 +129,7 @@ The code is designed with a clear process to manage user and movie information, 
    - Seat availability is checked for each movie.
    
 ### 6. **File Management for Tickets and User Profiles**
-   - The Show Ticket and UserProfile options let users view ticket and profile details stored in files.
+   - The UserProfile options let users view profile details stored in files.
 
 ### 7. **Program Exit**
    - When users select exit, the program ends and saves all changes for the next session.
